@@ -5,3 +5,6 @@ public class tut_1 {
         System.out.println("hey buddy");
     }
 }
+
+//AddTwoNumber--->Pascal Naming convention ---- used for classes
+//addTwoNumber--->Camel naming convention ---- used for function
