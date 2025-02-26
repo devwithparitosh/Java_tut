@@ -10,6 +10,6 @@ public class tut_Q4_07 {
 
         float miles=k/1.609344f;
 
-        System.out.println(k+" Kilometer is equal to"+ miles+" miles.");
+        System.out.println(k+" Kilometer is equal to "+ miles+" miles.");
     }
 }
