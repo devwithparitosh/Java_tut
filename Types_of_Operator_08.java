@@ -29,6 +29,6 @@ public class Types_of_Operator_08 {
 
 //        Bitwise Operator
         System.out.println(2&3);
-        System.out.println(2&3);
+
     }
 }
