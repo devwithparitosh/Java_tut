@@ -3,5 +3,9 @@ public class Increment_decemnet_op {
         int y =7;
         int x=++y *8;
         System.out.print(x);
+
+        //Character increment
+        char ch='a';
+        System.out.print(++ch);
     }
 }
