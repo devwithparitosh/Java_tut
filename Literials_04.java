@@ -1,5 +1,5 @@
 //A Constant value which can be assigned to the variable is called as a literals
-
+//literals are constant values that are directly assigned to variables. They represent fixed values that do not change during the execution of a program.
 public class Literials_04 {
     public static void main(String [] args){
         byte age=24;
