@@ -18,8 +18,9 @@ import java.util.Scanner;
 
 public class String_13 {
     public static void main(String[] args) {
-        String name="Diablo";
-        System.out.print("Villan name is : ");     //Another Way of Print the Value
+
+        String name="Diablo";                 //Another Way of Print the Value
+        System.out.print("Villan name is : ");
         System.out.println(name);
 
         int a=6;
@@ -29,7 +30,7 @@ public class String_13 {
 
         System.out.printf("The value of a is %d and value of b is %8.2f \n",a,b); //Decimal spacing
 
-        //Another Way Creating String
+        //Another Way Creating String using user input
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the String : ");
 //        String str=sc.next();  //It's only read the Single Word
