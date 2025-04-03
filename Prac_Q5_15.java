@@ -4,6 +4,7 @@ import java.sql.SQLOutput;
 //letter ="Dear Shadow Monarch, This is your Army"
 public class Prac_Q5_15 {
     public static void main(String[] args){
+
         String letter ="Dear Shadow Monarch,\n\tThis is your Army.\nArise!!";
         System.out.println(letter);
 
