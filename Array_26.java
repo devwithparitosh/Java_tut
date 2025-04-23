@@ -21,8 +21,6 @@ public class Array_26 {
         //3rd Way
         int []num1={10,20,30,40,50};     //Declare + initialize
 
-
-
         System.out.println(marks[3]);   //Accessing an array
     }
 }
