@@ -1,3 +1,11 @@
+//void means that this method does not have a return value. You will learn more about return values later in this chapter
+
+//static means that the method belongs to the Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial.
+
+//There are two types of methods in Java:
+
+//Predefined Method-->equals(),sqrt().compareTo(),max(){Math Class}
+//User-defined Method
 
 public class Methods_31 {
     static int sum(int a,int b){          //Static method calls in static
