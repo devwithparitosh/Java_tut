@@ -11,7 +11,7 @@ public class MethPrac_Q3_39 {
     public static void main(String[] args) {
         Square shape=new Square();
 
-        System.out.println("The area of Square is "+shape.area(4));
-        System.out.println("the perimeter of Square is "+shape.perimeter(2));
+        System.out.println("The area of Square is "+shape.area(3));
+        System.out.println("the perimeter of Square is "+shape.perimeter(3));
     }
 }
