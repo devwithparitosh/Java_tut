@@ -24,6 +24,7 @@ public class CustomClass_38 {
         ravi.id=101;
         ravi.name="Ravi";
         ravi.salary=60000;
+
         /*System.out.println(rohan.id);
         System.out.println(rohan.name);
         System.out.println(rohan.salary);     //normal way too call the attributes
