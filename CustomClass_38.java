@@ -3,7 +3,7 @@ class Employee{                //Custom class
     int id;
     String name;
     int salary;
-    public void printDetails(){
+    public void printDetails(){      //Method
         System.out.print("The id is "+id);
         System.out.print(" and name of employee is " +name);
         System.out.println(" and salary is "+salary);
