@@ -1,3 +1,4 @@
+//Dynamic method dispatch or run-time polymorphism is the mechanism through which the correct version of an overridden method is called at runtime. When a subclass overrides a method from its superclass, the overridden method in the subclass is executed when called on an instance of the subclass, even if the reference to the object is of the superclass type.
 
 class Phone{
     public void color(){
