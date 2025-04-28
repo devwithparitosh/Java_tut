@@ -29,11 +29,17 @@ abstract class Child2 extends Parent{            //Abstract Class
 
 public class AbstractClass_53 {
     public static void main(String[] args) {
-        Child c=new Child();
 
+        Child c=new Child();
         c.greet();
         c.sayHEllo();
         c.SayChild();
+
+        Parent p1=new Child();
+        p1.greet();
+        p1.sayHEllo();
+//        p1.SayChild();                 //not allowed
+
 
     }
 }
