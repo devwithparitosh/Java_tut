@@ -1,5 +1,4 @@
 
-
 interface Bicycle1{
     int price=2000;
     void applyBreak1();
