@@ -1,3 +1,5 @@
+//Q:-Write a Java program to input a 2x3 matrix of integers, and Calculate the sum of the matrics?
+
 import java.util.Scanner;
 
 public class MatrixSumNotSquare {
