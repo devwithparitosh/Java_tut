@@ -27,7 +27,6 @@ class Game{
         System.out.print("Enter the Number: ");
         this.number=sc.nextInt();
     }
-
     public boolean isCorrectNumber(){
         attempt++;
         if(GuessNumber==number){
