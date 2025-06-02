@@ -3,6 +3,10 @@
 interface Gps{
     void maps();
     void location();
+
+    default void versionOfAndriod(){             //It is Default method Which is used to enable us to add new functionality to a existing interface .Without being disturpt the already implemented classes.
+        System.out.println("Version is Oreo");
+    }
 }
 interface Camera{
     void Photo();
