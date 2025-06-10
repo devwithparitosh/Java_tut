@@ -35,8 +35,7 @@ Step 3: Now create an empty text file and write the below Java code, and don't f
 Step 1 :-Declared the packages name to the all file which do you want to add in the packages like
             >package Animals.species;
             >pacakge Animals.bloodlines;
-
-at the Start of the file
+        at the Start of the file
 
 Step 2:-           cmd> javac -d.*.java
 This command will organised the all file in which declared the packages name .
