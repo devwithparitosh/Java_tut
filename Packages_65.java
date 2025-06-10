@@ -13,7 +13,6 @@ public class Packages_65 {
 
         System.out.print("Enter the number :");
         int a=sc.nextInt();
-
         System.out.println(a);
     }
 }
