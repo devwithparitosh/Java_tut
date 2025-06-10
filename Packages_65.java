@@ -10,7 +10,9 @@ By grouping related classes into packages, Java promotes data encapsulation, mak
 public class Packages_65 {
     public static void main(String[] args){
         java.util.Scanner sc=new java.util.Scanner(System.in);        //In this line we import the Scanner package directly without import declaration
+        System.out.print("Enter the number :");
         int a=sc.nextInt();
+
         System.out.println(a);
     }
 }
