@@ -1,0 +1,45 @@
+-------------------------Creating Custom Packages---------------------------
+
+Step 1 :-Declared the packages name to the all file which do you want to add in the packages like (package devwithpari;) at the Start of the file
+
+Step 2:- In the cmd you have to run the java file
+            cmd> javac fileName.java
+            cmd> java fileName             //for run the code within the fileName file
+            cdm> javac -d.fileName.java
+which create the packages.
+
+Step 3:-           cmd> javac -d.*.java
+This command will organised the all file in which declared the packages name .
+
+-------------------------------OR---------------------------------------------
+
+Step 1: Create a directory in which we create our packages and Java files.
+
+mkdir PROGRAMMING
+
+Step 2: Now, change the directory and create another folder inside the main folder
+
+cd PROGRAMMING
+
+mkdir JavaProgramming
+
+cd JavaProgramming
+
+mkdir arrays
+
+Step 3: Now create an empty text file and write the below Java code, and don't forget to save it with the same name as the class with .java extension (TwoPointers.java)
+
+
+--------------------Creating Custom Packages with multiple Sub packages----------------------
+
+Step 1 :-Declared the packages name to the all file which do you want to add in the packages like
+            >package Animals.species;
+            >pacakge Animals.bloodlines;
+        at the Start of the file
+
+Step 2:-           cmd> javac -d.*.java
+This command will organised the all file in which declared the packages name .
+
+
+Note:-  cmd> javac abc.*.java
+        -> abc is  folder which is create after run the command and  it contain the package of Animal packages but if you want to create the package in current program file then you have use it the (cmd> javac -d.*.java) this command to oranize and create.
