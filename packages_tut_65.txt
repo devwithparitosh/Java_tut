@@ -6,7 +6,7 @@ Step 2:- In the cmd you have to run the java file
             cmd> javac fileName.java
             cmd> java fileName             //for run the code within the fileName file
             cdm> javac -d.fileName.java
-which create the packages .
+which create the packages.
 
 Step 3:-           cmd> javac -d.*.java
 This command will organised the all file in which declared the packages name .
