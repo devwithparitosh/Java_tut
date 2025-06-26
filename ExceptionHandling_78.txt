@@ -1,0 +1,55 @@
+--->Exception handling in Java is an effective mechanism for managing runtime errors to ensure the application's regular flow is maintained.
+Some Common examples of exceptions include ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+By handling these exceptions, Java enables developers to create robust and fault-tolerant applications.
+
+--------------Advantages of Exception Handling--------------
+
+----Provision to complete program execution.
+----Easy identification of program code and error-handling code.
+----Propagation of errors.
+----Meaningful error reporting.
+----Identifying error types.
+
+------------mechanism of exception handling -------------
+    ->try-catch and final
+
+-----------------------------Types of Java Exceptions------------------------
+Java defines several types of exceptions that relate to its various class libraries. Java also allows users to define their it's exceptions.
+
+Exceptions can be categorized in two ways:
+
+----->Built-in Exceptions
+       --Checked Exception:- Checked exceptions are called compile-time exceptions because these exceptions are checked at compile-time by the compiler.
+                             Examples of Checked Exception are listed below:
+
+                    -ClassNotFoundException: Throws when the program tries to load a class at runtime but the class is not found because it's belong not present in the correct location or it is missing from the project.
+
+                    -InterruptedException: Thrown when a thread is paused and another thread interrupts it.
+
+                    -IOException: Throws when input/output operation fails.
+
+                    -InstantiationException: Thrown when the program tries to create an object of a class but fails because the class is abstract, an interface, or has no default constructor.
+
+                    -SQLException: Throws when there is an error with the database.
+
+                    -FileNotFoundException: Thrown when the program tries to open a file that does not exist.
+
+
+       --Unchecked Exception:-  The unchecked exceptions are just opposite to the checked exceptions. The compiler will not check these exceptions at compile time.
+                                In simple words, if a program throws an unchecked exception, and even if we did not handle or declare it, the program would not give a compilation error. Examples of Unchecked Exception are listed below:
+
+                                -ArithmeticException: It is thrown when there is an illegal math operation.
+
+                                -ClassCastException: It is thrown when we try to cast an object to a class it does not belong to.
+
+                                -NullPointerException: It is thrown when we try to use a null object (e.g. accessing its methods or fields).
+
+                                -ArrayIndexOutOfBoundsException: This occurs when we try to access an array element with an invalid index.
+
+                                -ArrayStoreException: This happens when we store an object of the wrong type in an array.
+
+                                -IllegalThreadStateException: It is thrown when a thread operation is not allowed in its current state.
+
+
+----->User-Defined Exceptions
+                   -Sometimes, the built-in exceptions in Java are not able to describe a certain situation. In such cases, users can also create exceptions, which are called "user-defined Exceptions".
